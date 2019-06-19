@@ -14,7 +14,7 @@ func main() {
 
 		f := fib()
 
-		res := &response{Message: "Hello World"}
+		res := &response{Message: "I don't want to live on this planet anymore"}
 
 		for _, e := range os.Environ() {
 			pair := strings.Split(e, "=")
